@@ -1,0 +1,28 @@
+# Python / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# GCP Credentials & Secrets (CRITICAL)
+*.json
+credentials.json
+service-account*.json
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local debug screenshots
+screenshots/
