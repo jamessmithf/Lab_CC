@@ -1,0 +1,16 @@
+# Course PDFs / reference manuals (keep local only)
+/*.pdf
+
+# Python & IDE caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.idea/
+.vscode/
+*.iml
+
+# Secrets & local environment files
+.env
+credentials.json
+**/gcp_cluster_info.env

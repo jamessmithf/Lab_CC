@@ -1,0 +1,77 @@
+services:
+  master:
+    image: hummer12007/parcs-node:latest
+    container_name: parcs-master
+    cpus: 1.0
+    cpuset: "${MASTER_CPUSET:-0}"
+    environment:
+      - PARCS_ARGS=master
+    ports:
+      - "8080:8080"
+    networks:
+      parcs_net:
+        ipv4_address: 172.28.0.2
+    restart: unless-stopped
+
+  worker1:
+    image: hummer12007/parcs-node:latest
+    container_name: parcs-worker1
+    cpus: 1.0
+    cpuset: "${WORKER1_CPUSET:-2}"
+    environment:
+      - PARCS_ARGS=worker 172.28.0.2
+    depends_on:
+      - master
+    networks:
+      parcs_net:
+        ipv4_address: 172.28.0.3
+    restart: unless-stopped
+
+  worker2:
+    image: hummer12007/parcs-node:latest
+    container_name: parcs-worker2
+    cpus: 1.0
+    cpuset: "${WORKER2_CPUSET:-4}"
+    environment:
+      - PARCS_ARGS=worker 172.28.0.2
+    depends_on:
+      - master
+    networks:
+      parcs_net:
+        ipv4_address: 172.28.0.4
+    restart: unless-stopped
+
+  worker3:
+    image: hummer12007/parcs-node:latest
+    container_name: parcs-worker3
+    cpus: 1.0
+    cpuset: "${WORKER3_CPUSET:-6}"
+    environment:
+      - PARCS_ARGS=worker 172.28.0.2
+    depends_on:
+      - master
+    networks:
+      parcs_net:
+        ipv4_address: 172.28.0.5
+    restart: unless-stopped
+
+  worker4:
+    image: hummer12007/parcs-node:latest
+    container_name: parcs-worker4
+    cpus: 1.0
+    cpuset: "${WORKER4_CPUSET:-8}"
+    environment:
+      - PARCS_ARGS=worker 172.28.0.2
+    depends_on:
+      - master
+    networks:
+      parcs_net:
+        ipv4_address: 172.28.0.6
+    restart: unless-stopped
+
+networks:
+  parcs_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16

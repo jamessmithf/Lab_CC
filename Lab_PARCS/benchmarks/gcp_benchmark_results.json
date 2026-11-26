@@ -1,0 +1,242 @@
+[
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 10000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 2.5352865854899087,
+    "min_time_sec": 2.5285730361938477,
+    "all_times": [
+      2.536508798599243,
+      2.5285730361938477,
+      2.5407779216766357
+    ],
+    "integral": 3.141592653589731,
+    "abs_error": 6.217248937900877e-14
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 10000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 1.2699793974558513,
+    "min_time_sec": 1.268010139465332,
+    "all_times": [
+      1.270963191986084,
+      1.2709648609161377,
+      1.268010139465332
+    ],
+    "integral": 3.141592653589923,
+    "abs_error": 1.2967404927621828e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 10000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 0.8745172818501791,
+    "min_time_sec": 0.8717930316925049,
+    "all_times": [
+      0.8754909038543701,
+      0.8762679100036621,
+      0.8717930316925049
+    ],
+    "integral": 3.1415926535897283,
+    "abs_error": 6.483702463810914e-14
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 10000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 0.6613736947377523,
+    "min_time_sec": 0.6483240127563477,
+    "all_times": [
+      0.6811599731445312,
+      0.6483240127563477,
+      0.6546370983123779
+    ],
+    "integral": 3.1415926535896697,
+    "abs_error": 1.234568003383174e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 25000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 6.352226336797078,
+    "min_time_sec": 6.338797092437744,
+    "all_times": [
+      6.338797092437744,
+      6.363338947296143,
+      6.354542970657349
+    ],
+    "integral": 3.1415926535899796,
+    "abs_error": 1.865174681370263e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 25000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 3.245654900868734,
+    "min_time_sec": 3.165609836578369,
+    "all_times": [
+      3.1663060188293457,
+      3.165609836578369,
+      3.4050488471984863
+    ],
+    "integral": 3.141592653589783,
+    "abs_error": 1.021405182655144e-14
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 25000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 2.127904017766317,
+    "min_time_sec": 2.122411012649536,
+    "all_times": [
+      2.1385319232940674,
+      2.122411012649536,
+      2.1227691173553467
+    ],
+    "integral": 3.141592653589956,
+    "abs_error": 1.6298074001497298e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 25000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 1.6179773012797039,
+    "min_time_sec": 1.603550910949707,
+    "all_times": [
+      1.638113021850586,
+      1.603550910949707,
+      1.6122679710388184
+    ],
+    "integral": 3.1415926535897802,
+    "abs_error": 1.2878587085651816e-14
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 50000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 12.608073949813843,
+    "min_time_sec": 12.59359097480774,
+    "all_times": [
+      12.59359097480774,
+      12.629862070083618,
+      12.600768804550171
+    ],
+    "integral": 3.1415926535895617,
+    "abs_error": 2.313704783318826e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 50000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 6.349965333938599,
+    "min_time_sec": 6.297343969345093,
+    "all_times": [
+      6.303126096725464,
+      6.449425935745239,
+      6.297343969345093
+    ],
+    "integral": 3.1415926535900303,
+    "abs_error": 2.3714363805993344e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 50000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 4.253625392913818,
+    "min_time_sec": 4.231182098388672,
+    "all_times": [
+      4.269288063049316,
+      4.231182098388672,
+      4.260406017303467
+    ],
+    "integral": 3.141592653589692,
+    "abs_error": 1.0125233984581428e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 50000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 3.2508656978607178,
+    "min_time_sec": 3.2204110622406006,
+    "all_times": [
+      3.2204110622406006,
+      3.271557092666626,
+      3.2606289386749268
+    ],
+    "integral": 3.141592653589738,
+    "abs_error": 5.5067062021407764e-14
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 100000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 25.237319389979046,
+    "min_time_sec": 25.207930088043213,
+    "all_times": [
+      25.26501202583313,
+      25.23901605606079,
+      25.207930088043213
+    ],
+    "integral": 3.1415926535904264,
+    "abs_error": 6.332712132461893e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 100000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 12.621907711029053,
+    "min_time_sec": 12.619713068008423,
+    "all_times": [
+      12.621443033218384,
+      12.624567031860352,
+      12.619713068008423
+    ],
+    "integral": 3.1415926535899095,
+    "abs_error": 1.163513729807164e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 100000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 8.482738018035889,
+    "min_time_sec": 8.455591917037964,
+    "all_times": [
+      8.513653039932251,
+      8.455591917037964,
+      8.478969097137451
+    ],
+    "integral": 3.14159265358957,
+    "abs_error": 2.2293278334473143e-13
+  },
+  {
+    "environment": "Google Cloud Platform (Compute Engine)",
+    "n": 100000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 6.408132314682007,
+    "min_time_sec": 6.389337062835693,
+    "all_times": [
+      6.397943019866943,
+      6.437116861343384,
+      6.389337062835693
+    ],
+    "integral": 3.141592653589683,
+    "abs_error": 1.1013412404281553e-13
+  }
+]

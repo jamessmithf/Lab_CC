@@ -1,0 +1,242 @@
+[
+  {
+    "environment": "Local Docker Cluster",
+    "n": 10000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 1.0499114990234375,
+    "min_time_sec": 1.0362257957458496,
+    "all_times": [
+      1.0584778785705566,
+      1.0362257957458496,
+      1.0550308227539062
+    ],
+    "integral": 3.141592653589731,
+    "abs_error": 6.217248937900877e-14
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 10000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 0.5780446529388428,
+    "min_time_sec": 0.5761768817901611,
+    "all_times": [
+      0.5761768817901611,
+      0.5763599872589111,
+      0.581597089767456
+    ],
+    "integral": 3.141592653589923,
+    "abs_error": 1.2967404927621828e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 10000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 0.423782745997111,
+    "min_time_sec": 0.41062307357788086,
+    "all_times": [
+      0.41062307357788086,
+      0.4447011947631836,
+      0.41602396965026855
+    ],
+    "integral": 3.1415926535897283,
+    "abs_error": 6.483702463810914e-14
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 10000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 0.35077404975891113,
+    "min_time_sec": 0.3454270362854004,
+    "all_times": [
+      0.3454270362854004,
+      0.3469200134277344,
+      0.35997509956359863
+    ],
+    "integral": 3.1415926535896697,
+    "abs_error": 1.234568003383174e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 25000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 2.6153337160746255,
+    "min_time_sec": 2.5849199295043945,
+    "all_times": [
+      2.5849199295043945,
+      2.596759080886841,
+      2.6643221378326416
+    ],
+    "integral": 3.1415926535899796,
+    "abs_error": 1.865174681370263e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 25000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 1.4756269454956055,
+    "min_time_sec": 1.4708099365234375,
+    "all_times": [
+      1.477207899093628,
+      1.4708099365234375,
+      1.478863000869751
+    ],
+    "integral": 3.141592653589783,
+    "abs_error": 1.021405182655144e-14
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 25000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 1.0468680063883464,
+    "min_time_sec": 1.0347590446472168,
+    "all_times": [
+      1.0521008968353271,
+      1.0537440776824951,
+      1.0347590446472168
+    ],
+    "integral": 3.141592653589956,
+    "abs_error": 1.6298074001497298e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 25000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 0.8648513952891032,
+    "min_time_sec": 0.8516621589660645,
+    "all_times": [
+      0.8516621589660645,
+      0.8723580837249756,
+      0.8705339431762695
+    ],
+    "integral": 3.1415926535897802,
+    "abs_error": 1.2878587085651816e-14
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 50000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 5.322235027949016,
+    "min_time_sec": 5.215882062911987,
+    "all_times": [
+      5.215882062911987,
+      5.30766487121582,
+      5.443158149719238
+    ],
+    "integral": 3.1415926535895617,
+    "abs_error": 2.313704783318826e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 50000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 2.961927652359009,
+    "min_time_sec": 2.9528229236602783,
+    "all_times": [
+      2.957129955291748,
+      2.975830078125,
+      2.9528229236602783
+    ],
+    "integral": 3.1415926535900303,
+    "abs_error": 2.3714363805993344e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 50000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 2.1206769943237305,
+    "min_time_sec": 2.1131608486175537,
+    "all_times": [
+      2.1131608486175537,
+      2.116706132888794,
+      2.1321640014648438
+    ],
+    "integral": 3.141592653589692,
+    "abs_error": 1.0125233984581428e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 50000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 1.7556682427724202,
+    "min_time_sec": 1.7232489585876465,
+    "all_times": [
+      1.7232489585876465,
+      1.7891268730163574,
+      1.7546288967132568
+    ],
+    "integral": 3.141592653589738,
+    "abs_error": 5.5067062021407764e-14
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 100000000,
+    "workers": 1,
+    "repeats": 3,
+    "avg_time_sec": 10.556261698404947,
+    "min_time_sec": 10.446540117263794,
+    "all_times": [
+      10.587356090545654,
+      10.446540117263794,
+      10.634888887405396
+    ],
+    "integral": 3.1415926535904264,
+    "abs_error": 6.332712132461893e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 100000000,
+    "workers": 2,
+    "repeats": 3,
+    "avg_time_sec": 6.0164633591969805,
+    "min_time_sec": 5.9148640632629395,
+    "all_times": [
+      5.9148640632629395,
+      5.964524030685425,
+      6.170001983642578
+    ],
+    "integral": 3.1415926535899095,
+    "abs_error": 1.163513729807164e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 100000000,
+    "workers": 3,
+    "repeats": 3,
+    "avg_time_sec": 4.136618296305339,
+    "min_time_sec": 4.023061990737915,
+    "all_times": [
+      4.335686922073364,
+      4.023061990737915,
+      4.051105976104736
+    ],
+    "integral": 3.14159265358957,
+    "abs_error": 2.2293278334473143e-13
+  },
+  {
+    "environment": "Local Docker Cluster",
+    "n": 100000000,
+    "workers": 4,
+    "repeats": 3,
+    "avg_time_sec": 3.425840695699056,
+    "min_time_sec": 3.406553030014038,
+    "all_times": [
+      3.406553030014038,
+      3.423675060272217,
+      3.447293996810913
+    ],
+    "integral": 3.141592653589683,
+    "abs_error": 1.1013412404281553e-13
+  }
+]

@@ -1,0 +1,83 @@
+[16:03:49] === start: sizes=[10000000, 25000000, 50000000, 100000000] interval=[0, 1] runs=3 workers=[1, 2, 3, 4] python=2.7.13
+[16:03:49] workers registered: 4 (#0 172.28.0.6, #1 172.28.0.5, #2 172.28.0.4, #3 172.28.0.3)
+[16:03:49] --- N=10000000: input /lab/results/data/n10000000.txt (13 bytes)
+[16:03:50] N=10000000 seq run 1: total 1.0433s (compute 1.0429s), abs_err=6.22e-14, correct=True
+[16:03:51] N=10000000 seq run 2: total 1.0216s (compute 1.0212s), abs_err=6.22e-14, correct=True
+[16:03:52] N=10000000 seq run 3: total 1.0385s (compute 1.0381s), abs_err=6.22e-14, correct=True
+[16:03:52] N=10000000: 1 worker(s) enabled (172.28.0.6)
+[16:03:54] N=10000000 k=1 run 1: total 1.0585s (compute_max 1.0549s, transfer_max 0.0034s, imb 1.0000), job_wall 2.0606s, abs_err=6.22e-14, correct=True, matches_seq=True
+[16:03:57] N=10000000 k=1 run 2: total 1.0362s (compute_max 1.0315s, transfer_max 0.0044s, imb 1.0000), job_wall 2.4580s, abs_err=6.22e-14, correct=True, matches_seq=True
+[16:03:59] N=10000000 k=1 run 3: total 1.0550s (compute_max 1.0516s, transfer_max 0.0031s, imb 1.0000), job_wall 2.2456s, abs_err=6.22e-14, correct=True, matches_seq=True
+[16:03:59] N=10000000: 2 worker(s) enabled (172.28.0.6, 172.28.0.5)
+[16:04:00] N=10000000 k=2 run 1: total 0.5762s (compute_max 0.5721s, transfer_max 0.0040s, imb 1.0002), job_wall 1.4350s, abs_err=1.30e-13, correct=True, matches_seq=True
+[16:04:02] N=10000000 k=2 run 2: total 0.5764s (compute_max 0.5713s, transfer_max 0.0047s, imb 1.0007), job_wall 1.6422s, abs_err=1.30e-13, correct=True, matches_seq=True
+[16:04:04] N=10000000 k=2 run 3: total 0.5816s (compute_max 0.5763s, transfer_max 0.0049s, imb 1.0009), job_wall 1.6435s, abs_err=1.30e-13, correct=True, matches_seq=True
+[16:04:04] N=10000000: 3 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4)
+[16:04:05] N=10000000 k=3 run 1: total 0.4106s (compute_max 0.4064s, transfer_max 0.0044s, imb 1.0011), job_wall 1.6449s, abs_err=6.48e-14, correct=True, matches_seq=True
+[16:04:07] N=10000000 k=3 run 2: total 0.4447s (compute_max 0.4397s, transfer_max 0.0053s, imb 1.0005), job_wall 2.0535s, abs_err=6.48e-14, correct=True, matches_seq=True
+[16:04:09] N=10000000 k=3 run 3: total 0.4160s (compute_max 0.4114s, transfer_max 0.0047s, imb 1.0007), job_wall 1.8411s, abs_err=6.48e-14, correct=True, matches_seq=True
+[16:04:09] N=10000000: 4 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4, 172.28.0.3)
+[16:04:11] N=10000000 k=4 run 1: total 0.3454s (compute_max 0.3405s, transfer_max 0.0049s, imb 1.0017), job_wall 2.0591s, abs_err=1.23e-13, correct=True, matches_seq=True
+[16:04:13] N=10000000 k=4 run 2: total 0.3469s (compute_max 0.3422s, transfer_max 0.0046s, imb 1.0005), job_wall 2.2590s, abs_err=1.23e-13, correct=True, matches_seq=True
+[16:04:16] N=10000000 k=4 run 3: total 0.3600s (compute_max 0.3536s, transfer_max 0.0061s, imb 1.0053), job_wall 2.2634s, abs_err=1.23e-13, correct=True, matches_seq=True
+[16:04:16] --- N=25000000: input /lab/results/data/n25000000.txt (13 bytes)
+[16:04:18] N=25000000 seq run 1: total 2.5838s (compute 2.5834s), abs_err=1.87e-13, correct=True
+[16:04:21] N=25000000 seq run 2: total 2.5802s (compute 2.5798s), abs_err=1.87e-13, correct=True
+[16:04:24] N=25000000 seq run 3: total 2.6182s (compute 2.6179s), abs_err=1.87e-13, correct=True
+[16:04:24] N=25000000: 1 worker(s) enabled (172.28.0.6)
+[16:04:27] N=25000000 k=1 run 1: total 2.5849s (compute_max 2.5813s, transfer_max 0.0034s, imb 1.0000), job_wall 3.0546s, abs_err=1.87e-13, correct=True, matches_seq=True
+[16:04:30] N=25000000 k=1 run 2: total 2.5968s (compute_max 2.5923s, transfer_max 0.0041s, imb 1.0000), job_wall 3.4543s, abs_err=1.87e-13, correct=True, matches_seq=True
+[16:04:33] N=25000000 k=1 run 3: total 2.6643s (compute_max 2.6597s, transfer_max 0.0043s, imb 1.0000), job_wall 3.2533s, abs_err=1.87e-13, correct=True, matches_seq=True
+[16:04:33] N=25000000: 2 worker(s) enabled (172.28.0.6, 172.28.0.5)
+[16:04:36] N=25000000 k=2 run 1: total 1.4772s (compute_max 1.4721s, transfer_max 0.0047s, imb 1.0013), job_wall 2.4457s, abs_err=1.02e-14, correct=True, matches_seq=True
+[16:04:39] N=25000000 k=2 run 2: total 1.4708s (compute_max 1.4648s, transfer_max 0.0056s, imb 1.0012), job_wall 2.6571s, abs_err=1.02e-14, correct=True, matches_seq=True
+[16:04:41] N=25000000 k=2 run 3: total 1.4789s (compute_max 1.4744s, transfer_max 0.0043s, imb 1.0050), job_wall 2.6526s, abs_err=1.02e-14, correct=True, matches_seq=True
+[16:04:41] N=25000000: 3 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4)
+[16:04:44] N=25000000 k=3 run 1: total 1.0521s (compute_max 1.0473s, transfer_max 0.0048s, imb 1.0033), job_wall 2.6660s, abs_err=1.63e-13, correct=True, matches_seq=True
+[16:04:47] N=25000000 k=3 run 2: total 1.0537s (compute_max 1.0497s, transfer_max 0.0077s, imb 1.0103), job_wall 2.8607s, abs_err=1.63e-13, correct=True, matches_seq=True
+[16:04:50] N=25000000 k=3 run 3: total 1.0348s (compute_max 1.0310s, transfer_max 0.0038s, imb 1.0012), job_wall 3.0685s, abs_err=1.63e-13, correct=True, matches_seq=True
+[16:04:50] N=25000000: 4 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4, 172.28.0.3)
+[16:04:52] N=25000000 k=4 run 1: total 0.8517s (compute_max 0.8463s, transfer_max 0.0052s, imb 1.0021), job_wall 1.8409s, abs_err=1.29e-14, correct=True, matches_seq=True
+[16:04:54] N=25000000 k=4 run 2: total 0.8724s (compute_max 0.8687s, transfer_max 0.0055s, imb 1.0031), job_wall 2.2530s, abs_err=1.29e-14, correct=True, matches_seq=True
+[16:04:56] N=25000000 k=4 run 3: total 0.8705s (compute_max 0.8659s, transfer_max 0.0059s, imb 1.0050), job_wall 2.2560s, abs_err=1.29e-14, correct=True, matches_seq=True
+[16:04:56] --- N=50000000: input /lab/results/data/n50000000.txt (13 bytes)
+[16:05:01] N=50000000 seq run 1: total 5.1734s (compute 5.1730s), abs_err=2.31e-13, correct=True
+[16:05:07] N=50000000 seq run 2: total 5.2430s (compute 5.2376s), abs_err=2.31e-13, correct=True
+[16:05:12] N=50000000 seq run 3: total 5.2522s (compute 5.2519s), abs_err=2.31e-13, correct=True
+[16:05:12] N=50000000: 1 worker(s) enabled (172.28.0.6)
+[16:05:18] N=50000000 k=1 run 1: total 5.2159s (compute_max 5.2118s, transfer_max 0.0038s, imb 1.0000), job_wall 6.0857s, abs_err=2.31e-13, correct=True, matches_seq=True
+[16:05:24] N=50000000 k=1 run 2: total 5.3077s (compute_max 5.3028s, transfer_max 0.0045s, imb 1.0000), job_wall 6.2882s, abs_err=2.31e-13, correct=True, matches_seq=True
+[16:05:31] N=50000000 k=1 run 3: total 5.4432s (compute_max 5.4374s, transfer_max 0.0050s, imb 1.0000), job_wall 6.4863s, abs_err=2.31e-13, correct=True, matches_seq=True
+[16:05:31] N=50000000: 2 worker(s) enabled (172.28.0.6, 172.28.0.5)
+[16:05:34] N=50000000 k=2 run 1: total 2.9571s (compute_max 2.9526s, transfer_max 0.0041s, imb 1.0024), job_wall 3.2445s, abs_err=2.37e-13, correct=True, matches_seq=True
+[16:05:38] N=50000000 k=2 run 2: total 2.9758s (compute_max 2.9720s, transfer_max 0.0035s, imb 1.0054), job_wall 3.6611s, abs_err=2.37e-13, correct=True, matches_seq=True
+[16:05:41] N=50000000 k=2 run 3: total 2.9528s (compute_max 2.9481s, transfer_max 0.0044s, imb 1.0003), job_wall 3.6564s, abs_err=2.37e-13, correct=True, matches_seq=True
+[16:05:41] N=50000000: 3 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4)
+[16:05:45] N=50000000 k=3 run 1: total 2.1132s (compute_max 2.1066s, transfer_max 0.0061s, imb 1.0017), job_wall 3.6732s, abs_err=1.01e-13, correct=True, matches_seq=True
+[16:05:49] N=50000000 k=3 run 2: total 2.1167s (compute_max 2.1127s, transfer_max 0.0039s, imb 1.0026), job_wall 3.8781s, abs_err=1.01e-13, correct=True, matches_seq=True
+[16:05:53] N=50000000 k=3 run 3: total 2.1322s (compute_max 2.1267s, transfer_max 0.0052s, imb 1.0016), job_wall 4.0865s, abs_err=1.01e-13, correct=True, matches_seq=True
+[16:05:53] N=50000000: 4 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4, 172.28.0.3)
+[16:05:56] N=50000000 k=4 run 1: total 1.7232s (compute_max 1.7192s, transfer_max 0.0061s, imb 1.0026), job_wall 2.8504s, abs_err=5.51e-14, correct=True, matches_seq=True
+[16:05:59] N=50000000 k=4 run 2: total 1.7891s (compute_max 1.7826s, transfer_max 0.0062s, imb 1.0160), job_wall 3.4731s, abs_err=5.51e-14, correct=True, matches_seq=True
+[16:06:03] N=50000000 k=4 run 3: total 1.7546s (compute_max 1.7499s, transfer_max 0.0066s, imb 1.0077), job_wall 3.2674s, abs_err=5.51e-14, correct=True, matches_seq=True
+[16:06:03] --- N=100000000: input /lab/results/data/n100000000.txt (14 bytes)
+[16:06:13] N=100000000 seq run 1: total 10.5143s (compute 10.5139s), abs_err=6.33e-13, correct=True
+[16:06:24] N=100000000 seq run 2: total 10.6101s (compute 10.6098s), abs_err=6.33e-13, correct=True
+[16:06:35] N=100000000 seq run 3: total 10.6275s (compute 10.6271s), abs_err=6.33e-13, correct=True
+[16:06:35] N=100000000: 1 worker(s) enabled (172.28.0.6)
+[16:06:46] N=100000000 k=1 run 1: total 10.5874s (compute_max 10.5834s, transfer_max 0.0036s, imb 1.0000), job_wall 11.1387s, abs_err=6.33e-13, correct=True, matches_seq=True
+[16:06:57] N=100000000 k=1 run 2: total 10.4465s (compute_max 10.4423s, transfer_max 0.0039s, imb 1.0000), job_wall 11.3395s, abs_err=6.33e-13, correct=True, matches_seq=True
+[16:07:08] N=100000000 k=1 run 3: total 10.6349s (compute_max 10.6301s, transfer_max 0.0044s, imb 1.0000), job_wall 11.3424s, abs_err=6.33e-13, correct=True, matches_seq=True
+[16:07:08] N=100000000: 2 worker(s) enabled (172.28.0.6, 172.28.0.5)
+[16:07:15] N=100000000 k=2 run 1: total 5.9149s (compute_max 5.9106s, transfer_max 0.0047s, imb 1.0020), job_wall 6.2925s, abs_err=1.16e-13, correct=True, matches_seq=True
+[16:07:21] N=100000000 k=2 run 2: total 5.9645s (compute_max 5.9604s, transfer_max 0.0045s, imb 1.0002), job_wall 6.6919s, abs_err=1.16e-13, correct=True, matches_seq=True
+[16:07:29] N=100000000 k=2 run 3: total 6.1700s (compute_max 6.1649s, transfer_max 0.0048s, imb 1.0012), job_wall 7.7098s, abs_err=1.16e-13, correct=True, matches_seq=True
+[16:07:29] N=100000000: 3 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4)
+[16:07:35] N=100000000 k=3 run 1: total 4.3357s (compute_max 4.3290s, transfer_max 0.0063s, imb 1.0236), job_wall 5.6798s, abs_err=2.23e-13, correct=True, matches_seq=True
+[16:07:41] N=100000000 k=3 run 2: total 4.0231s (compute_max 4.0164s, transfer_max 0.0069s, imb 1.0011), job_wall 5.8937s, abs_err=2.23e-13, correct=True, matches_seq=True
+[16:07:47] N=100000000 k=3 run 3: total 4.0511s (compute_max 4.0471s, transfer_max 0.0055s, imb 1.0007), job_wall 5.8976s, abs_err=2.23e-13, correct=True, matches_seq=True
+[16:07:47] N=100000000: 4 worker(s) enabled (172.28.0.6, 172.28.0.5, 172.28.0.4, 172.28.0.3)
+[16:07:52] N=100000000 k=4 run 1: total 3.4066s (compute_max 3.4027s, transfer_max 0.0071s, imb 1.0022), job_wall 5.0886s, abs_err=1.10e-13, correct=True, matches_seq=True
+[16:07:57] N=100000000 k=4 run 2: total 3.4237s (compute_max 3.4184s, transfer_max 0.0054s, imb 1.0054), job_wall 5.2964s, abs_err=1.10e-13, correct=True, matches_seq=True
+[16:08:02] N=100000000 k=4 run 3: total 3.4473s (compute_max 3.4408s, transfer_max 0.0061s, imb 1.0068), job_wall 5.0911s, abs_err=1.10e-13, correct=True, matches_seq=True
+[16:08:02] === all done. Results saved in /lab/results

@@ -1,0 +1,38 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml
+
+# Temporary / local cluster secrets & generated artifacts
+deploy/gcp_cluster_info.env
+demo/
+src/temp_*.txt
+
+# Local-only guides, study notes, license & report generator
+guide.md
+study.md
+LICENSE
+report/
+
+# Heavy raw logs & per-run outputs (keep clean summary.csv, results.csv, results.json, progress.log)
+benchmarks/results-*/outputs/
+benchmarks/results-*/data/
+benchmarks/results-*/parcs-master.log
+benchmarks/results-*/driver.log
+benchmarks/results-*/DONE
+benchmarks/results-*/FAILED
+
+# Old local / misc screenshots (keep only clean GCP cloud screenshots on GitHub)
+screenshots/home.png
+screenshots/about.png
+screenshots/add_job.png
+screenshots/jobs.png
+screenshots/nodes.png
+screenshots/bm_s1.png
+screenshots/bm_s2.png
